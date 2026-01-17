@@ -1,5 +1,5 @@
 document.getElementById('addUserForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent the form from submitting the default way
+    e.preventDefault();
     
     let name = document.getElementById('name').value;
     
